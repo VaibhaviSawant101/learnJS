@@ -1,0 +1,17 @@
+#DOM2
+-Attribute
+getAttribute(attr)
+setAttribute(attr, value)
+
+-Insert Elements
+create element
+let el = document.createElement("div");
+-add
+node.append(el) - add at the end of the node inside
+node.prepend(el) - add at the start of the node inside
+node.before(el) - add before the node outside
+node.append(el) - add after the node outside
+-delete
+node.remove();
+appendChild
+removeChild

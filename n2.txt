@@ -1,0 +1,31 @@
+Comment in JS
+Part of Code which is not executed
+// single line comment
+/* */ multi line comment
+
+Operators in JS
+Used to perform some operations on data
+1.Arithmetic Operators
+ +, -, *, /, %, **, 
+ uniary operator ++, --
+
+ 2.Assignment Operators
+ =, +=, -=, *=, /=, %=, **=
+
+ 3.Comparison Operators
+ ==, !=, ===, !==, >, >=, <, <=
+ === also checks the type stick check
+
+ 4.Logical Operators
+ &&, ||, !
+
+ #Conditional Statement
+ 1. if Statement
+ 2. if-else Statement
+ 3. if-else if-else Statement
+ 4.switch Statement
+
+ #Ternary Operator
+ condition? true output : false output;
+
+ mdn documentation

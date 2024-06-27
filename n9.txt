@@ -1,0 +1,53 @@
+#Classes and Objects
+Objects
+A javascript object is an entity having state and behavior(properties, method)
+JS object have a special property called prototype
+We can set prototype using __proto__
+when we create an object default object is created inside that object called as prototype
+if we create an array
+-we know it is object-it also has methods - push, pop
+-from where is comes -it comes from prototype
+-it inherit methods from prototype.
+so prototype contains general methods 
+-to inherit properties of other object we use prototype;
+-type of prototype - reference
+
+Classes
+Class is a program-code template for creating objects.
+Those objects will have some state(variables) & some behaviour (functions) inside it
+class MyClass{
+    constructor(){..}
+    myMethod(){..}
+}
+
+let myObj = new MyClass();
+
+Constructor() method is:
+-automatically invoked by new
+-initializes object
+
+constructor(){...}
+
+Inheritance in JS
+Inheritance is passing down properties & methods from parent class to child class
+class Parent{
+
+}
+class Child extends Parent{
+
+}
+If child & parent have same method, child's method will be used - Method Overriding
+
+Super keyword
+The super keyword is used to call the constructor of its parent class to access the parent properties and methods
+super(args)
+super.parentMethod(args)
+
+Error Handling
+try-catch
+try{
+    normal code
+}
+catch(err){
+    handling error
+}

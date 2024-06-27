@@ -1,0 +1,16 @@
+#Events in Javascript
+The change in the state of an object is known as an Events
+Events are fired to notify code of "interesting changes"
+that may affect code execution
+
+-Mouse events(click, double click etc)
+-keyboard events(keypress, keyup, keydown)
+-form events(submit etc)
+-print event & many more
+
+for events priority is given to js rather than inline javascript
+
+#Event Listeners
+node.addEventListener(event, callback);
+callback here is also called handlers
+node.removeEventListener(event, call)

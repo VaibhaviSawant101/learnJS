@@ -1,0 +1,87 @@
+#Function in JS
+Block of code that performs a specific task can be invoked whenever needed
+
+syntax
+function nameoffunction()
+{
+    //code;
+}
+function nameoffunction(parameters)
+{
+    //code;
+}
+function nameoffunction(parameters)
+{
+    //code;
+    return x;
+}
+
+to call function
+nameoffunction()
+nameoffunction(arguments)
+ x = nameoffunction(arguments)
+
+ #Arrow Function
+ Compact way of writing a function
+ const functionName = (parameters) => {
+    //code;
+ }
+
+ to call function
+ functionName(argument);
+
+ Difference between functions and methods
+ Methods are same as function but when applied to 
+ specific type it becomes method
+ When a function is stored as a property of an object, it is referred to as a method.
+ eg str.toUpperCase(); => only for strings
+
+ const greet = function() {
+  console.log("Hello, world!");
+};
+
+// Arrow function
+const greet = () => {
+  console.log("Hello, world!");
+};
+
+// Calling the function
+greet();
+
+// Defining an object with a method
+const person = {
+  name: "John",
+  greet: function() {
+    console.log("Hello, " + this.name);
+  }
+};
+
+// Calling the method
+person.greet();
+
+# forEach Loop in Array
+this is a method
+only used for arrays
+they are also called higher order function
+meaning those function that uses function as a 
+paramter or return function as a value
+arr.forEach(callBackFunction)
+callBackFunction can get 3 parameters 1-val, 2-ind, 3-full array
+
+callBackFunction: A callBackFunction is a function passed
+as an argument to another function.
+
+#Map method
+Creates a new array with the result of some operation.
+The value its callback returs are used to form new array
+arr.map(callBackFunction(value, ind, ary))
+
+#Filter
+Creates a new array of element that gives true for 
+condition/filter
+Eg all even elements
+
+#Reduce 
+Performs some operations and reduces the array to a single value.
+It returns that single value
+

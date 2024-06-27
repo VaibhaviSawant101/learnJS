@@ -1,0 +1,29 @@
+Loops
+To execute a piece of code again & again
+1.for Loop
+for(initialization; stopping condition; updation){}
+2.while Loop
+while( stopping cond){}
+3.do-while Loop
+do{}while(stopping cond);
+atleast runs 1 time
+4.for-of Loop
+for(let val of strVal){}
+applied on arrays and strings
+5.forin Loop
+used for object
+return keys
+
+Infinite Loop : A Loop that never ends
+
+#Strings in JS
+string is a sequence of character used to represent text
+Template literal
+the way to have vaiable, expression in it
+`this is a template literal`
+String Interpolation
+To create strings by doing substitution of placeholder
+`string text ${exp} string text`
+Escape character
+let str = "Apna\tCollege"
+str.length = 12 escape character count = 1

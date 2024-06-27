@@ -1,0 +1,37 @@
+JS is dynamically type language meaning
+let i = 5; i = "Hello"
+- no need to specify the type
+- we can change the type of initialized variable with different type
+
+Variables in JS
+Variable are container to store data
+Rules:
+Case sensitive
+$, _, digits, letters are allowed
+first char - letter, $, _
+reserved words cannot be variables names
+write the variable name with camelCase
+
+keyword to declare variable
+let - variable cannot be redeclared but can be updated. A block scope variable
+var - variable can be re declared & updated.A global scope variable
+const - variable cannot be redeclared & updated. A block scope variable
+const variable are written with capital letter
+
+if variable is declared with let and print it will show undefined
+if variable is declared with const and print it will show error missing initializer
+
+#Data Types
+Primitive data Types - Number, Boolean, String, Undefined, Null, BigInt, Symbol
+Non Primitive data Types - Objects(Arrays, Function)
+Object - it is collection of values
+eg Student => name string, age number, marks number, isPass Boolean
+key : value
+const student = {
+    fullName : "Rahul Kumar",
+    age : 20,
+    cgpa : 8.2,
+    isPass : true
+}
+
+const object can be changed

@@ -1,0 +1,14 @@
+#Array
+Collection of items
+Same type information
+arrays are mutuable
+
+methods
+1.push - add at end
+2.pop - delete at end & return deleted 
+3.unshift - add at start
+4.shift - delete at start & return deleted 
+5.slice - doesnot make changes in original array
+arr.slice(stindx, endind) endindx exclusive
+6.toString - makes ary element to string
+7.concat - concats two array

@@ -1,0 +1,29 @@
+#window object-
+represents an open window in a browser.
+It is browser's object (not Javascript's)
+It is automatically created by browser.
+It is global object with lots of properties & methods
+
+#DOM
+When a web page is loaded, the browser creates a
+Document object Model
+
+window->document->html->1.head
+                      ->2.body
+
+dynamic changes 
+done my dom without change require in html, css
+
+when we run script tag in head and run the cmd
+document.body it will show null as script was first
+run then body
+
+if specific class is not present - empty
+if specific id is not present - null
+
+document.querySelector(tag, .classname, #id); //1st element
+document.querySelectorAll(tag, classname, id); //all element
+
+#DOM properties
+tagName
+innertext
